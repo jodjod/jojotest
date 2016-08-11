@@ -5,7 +5,7 @@
         <phpunit haltonerror="true" haltonfailure="true" printsummary="true">
             <batchtest>
                 <fileset dir="${tests.dir}">
-                    <include name="tests/StackTest.php" />
+                    <include name="**/*Test.php" />
                 </fileset>
             </batchtest>
         </phpunit>
